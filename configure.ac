@@ -1,8 +1,9 @@
 
 dnl Process this file with autoconf to produce a configure script.
-AC_INIT(ez-ipupdate.c)
+AC_INIT(sb-ipupdate,0.0.0)
+AC_CONFIG_SRCDIR(ez-ipupdate.c)
 AM_CONFIG_HEADER(config.h)
-AM_INIT_AUTOMAKE(ez-ipupdate,3.0.11b8)
+AM_INIT_AUTOMAKE
 
 
 dnl Checks for programs.
